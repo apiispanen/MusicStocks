@@ -62,7 +62,7 @@ FILES AND THEIR FUNCTIONS :
 
 -cache-auth.py = (Auto-generated) stores the access token.
 
--hello.html = main page, provides the input form as well as a sidebar of history related to the user's past history.
+-hello.html = main page, provides the input form as well as a sidebar of history related to the user's past history. It is structured to look like a website (for presentation purposes), so it has links that do not work in the template, for it is not an actual website. 
 
 -results.html = results page, displays calculated amounts and provides a related picture. 
 
