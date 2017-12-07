@@ -57,6 +57,10 @@ def hello(name=None):
     else:
         return render_template('hello.html', name=name)
 
+@app.route('/about')
+def about():
+    return render_template('index.html')
+
 
 if __name__ == '__main__':
     app.run()
