@@ -1,3 +1,5 @@
+##### THIS TXT WAS USED TO SEE HOW THE GET RESPONSES WERE FORMATTED IN JSON #####
+
 https://api.spotify.com/v1/artists/43ZHCT0cAZBISjO8DG9PnE/top-tracks
 {'album': {'album_type': 'album',
            'artists': [{'external_urls': {'spotify': 'https://open.spotify.com/artist/43ZHCT0cAZBISjO8DG9PnE'},

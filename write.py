@@ -1,3 +1,5 @@
+### THESE FUNCTIONS TAKE THE POPULARITY SCORES AND SAVE THEM INTO THE TXT FILE "HISTORY.TXT" #####
+
 from artist import search
 def store(name, investment):
     l = open('history2.txt', 'w')
@@ -6,8 +8,6 @@ def store(name, investment):
         r.write(info+'\n')
         r.close()
         
-    
-    import fileinput
     import os
     entry = str(search(name))
     entry = entry.lower()

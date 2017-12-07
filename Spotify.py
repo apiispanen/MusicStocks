@@ -1,6 +1,10 @@
 import requests
 from pprint import pprint
 
+
+#### NOTE : THIS WAS PART OF THE INITIAL PROTOTYPE, NOT THE NEW APP ###
+
+
 def artist_search(name):
     #takes name into api and searches for its ID. returns ID.
     pass
