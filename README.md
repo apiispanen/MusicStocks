@@ -17,7 +17,8 @@ Spotify Artists API Endpoint = This was to search and to give back popularity in
 
 Pixabay API = Pulls a picture from Pixabay to give a picture (not always correct, intentionally) under the query term that the user had inputted.  
 
-NECESSARY LIBRARIES FOR INSTALLATION:
+NECESSARY LIBRARIES FOR INSTALLATION: 
+(--> indicates a function)
 
 -flask = configures the local server for webpage display
  
