@@ -66,8 +66,9 @@ FILES AND THEIR FUNCTIONS :
 
 -results.html = results page, displays calculated amounts and provides a related picture. 
 
+-->index.html = "About the project" section, also a copy of the README.
+
 FILES NOT IN THE FINISHED PRODUCT:
 -->Spotify.py = prototype for authorization
 -->success_scores.py = initial ways of calculating the investment values.
 -->toptrackresponse.txt = A guideline for how the Spotify API JSON responses look like. 
--->index.html = initial template for the interface.
