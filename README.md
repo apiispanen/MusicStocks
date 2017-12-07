@@ -40,6 +40,7 @@ FILES AND THEIR FUNCTIONS :
     -->Index = This is the initial interface function. It pulls together all the input, every variable into the template, and returns a result if the search is queried correctly. If the API query does not work through Spotify, it redirects the user to the page and displays an error message. If the pic URL receives an error, it displays a man shrugging to show that we cannot provide a picture for this artist in results.html. 
      (variables: input = investment amount and the queried artist name, output = results of the artist search in the API, details to pull analysis of the information from results, picurl to provide a picture URL from their API for HTML use on related artists, and history to show users other artists they have "invested" in.)
     -->Hello = As made from flask, this contains the option to manually enter in an artist name using the url '/results/{artist_name}' to search an artist without having to use the interface.
+    -->about = Displays the README file, in a format I cannot configure currently due to a lack of HTML knowledge.
 
 -auth.py = This is the request function that generates an API key each time it is called. Since Spotify's access tokens only last for a few hours, this simplifies the process of having to receive new keys each time for the code to work. 
     -->req_token() = generates the token by asking the API for a temporary token which it uses to pass along to other functions.
