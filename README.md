@@ -1,34 +1,38 @@
 # MusicalStocks
-#### NOTE: DO NOT EDIT 'HISTORY.TXT' OR ANY CODES, THEY ARE ESSENTIAL TO THE PROGRAM'S STABILITY.
+NOTE: DO NOT EDIT 'HISTORY.TXT' OR ANY CODES, THEY ARE ESSENTIAL TO THE PROGRAM'S STABILITY.
 
 
-MusicalStocks - The web app designed to bring back money into a starving industry.
+##MusicalStocks - The web app designed to bring back money into a starving industry.
 
 The main purpose of the project is a musical trading platform in which regular, everyday users can invest in a share of a band’s net worth. Not net worth, but band popularity, which can be calculated by pulling information off of famous music-streaming platforms such as Spotify. Band popularity can be calculated Spotify's artist API endpoint, the product would be more similar to a gambling platform that would bet on new and emerging artists, depending on the amount of work required to do either. The topics I will explore will be the music industry (Spotify API), financial trading platforms (or one’s similar to kickstarter or Bloomberg), and will need to pull API and live data in order to generate estimated payouts based on initial investments. Data for the app is stored in a .txt file (called 'history.txt'), and is formatted in a system that store.py and write.py know how to store and analyze. (note: every function in this webapp were made by me, so they may be fairly unconventional or inefficient.) 
 
-STEPS FOR IMPLEMENTATION:
+#STEPS FOR IMPLEMENTATION:
 1.  Run app.py (or go to https://musicalstocks.herokuapp.com/ if set up yet.)
 2.  Go to 'http://127.0.0.1:5000/' on browser.
 3.  Enter the initial value you wish to invest and the artist name. Press submit and enjoy!
 
 
-API's Used for App:
+#API's Used for App:
 
-Spotify Artists API Endpoint = This was to search and to give back popularity information on a particular artist, based on Spotify's API and auto-calculated popularity scores.
+####Spotify Artists API Endpoint = This was to search and to give back popularity information on a particular artist, based on Spotify's API and auto-calculated popularity scores.
 
-Pixabay API = Pulls a picture from Pixabay to give a picture (not always correct, intentionally) under the query term that the user had inputted.  
+####Pixabay API = Pulls a picture from Pixabay to give a picture (not always correct, intentionally) under the query term that the user had inputted.  
 
-NECESSARY LIBRARIES FOR INSTALLATION:
--flask = configures the local server for webpage display
+#NECESSARY LIBRARIES FOR INSTALLATION:
+
+####-flask = configures the local server for webpage display
     Functions of flask:
-    -Flask = initializes flask, which creates the local server. 
-    -render_template =  Create an HTML template for the website, putting together the templates with the Python functions. 
-    -request = Pulls input from the application HTML interface. 
--Requests = creates the api requests and receives the JSON data
--OS (Operating System Interfaces) = Allows cmd-type controls
--pprint = for testing JSON requests in an easy-to-read format
+    -->Flask = initializes flask, which creates the local server. 
+    -->render_template =  Create an HTML template for the website, putting together the templates with the Python functions. 
+    -->request = Pulls input from the application HTML interface. 
 
-FILES AND THEIR FUNCTIONS :
+####-Requests = creates the api requests and receives the JSON data
+
+####-OS (Operating System Interfaces) = Allows cmd-type controls
+
+####-pprint = for testing JSON requests in an easy-to-read format
+
+#FILES AND THEIR FUNCTIONS :
 
 -App.py = This is the central file that puts the entire app together.
     -->Index = This is the initial interface function. It pulls together all the input, every variable into the template, and returns a result if the search is queried correctly. If the API query does not work through Spotify, it redirects the user to the page and displays an error message. If the pic URL receives an error, it displays a man shrugging to show that we cannot provide a picture for this artist in results.html. 
