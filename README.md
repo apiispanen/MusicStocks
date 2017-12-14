@@ -1,13 +1,13 @@
 <<<<<<< HEAD
-# MusicalStocks
+# MusicStocks
 NOTE: DO NOT EDIT 'HISTORY.TXT' OR ANY CODES, THEY ARE ESSENTIAL TO THE PROGRAM'S STABILITY.
 
-MusicalStocks - The web app designed to bring back money into a starving industry.
+MusicStocks - The web app designed to bring back money into a starving industry.
 
-The main purpose of the project is a musical trading platform in which regular, everyday users can invest in a share of a band’s net worth. Not net worth, but band popularity, which can be calculated by pulling information off of famous music-streaming platforms such as Spotify. Band popularity can be calculated Spotify's artist API endpoint, the product would be more similar to a gambling platform that would bet on new and emerging artists, depending on the amount of work required to do either. The topics I will explore will be the music industry (Spotify API), financial trading platforms (or one’s similar to kickstarter or Bloomberg), and will need to pull API and live data in order to generate estimated payouts based on initial investments. Data for the app is stored in a .txt file (called 'history.txt'), and is formatted in a system that store.py and write.py know how to store and analyze. (note: every function in this webapp were made by me, so they may be fairly unconventional or inefficient.) 
+The main purpose of the project is a music trading platform in which regular, everyday users can invest in a share of a band’s net worth. Not net worth, but band popularity, which can be calculated by pulling information off of famous music-streaming platforms such as Spotify. Band popularity can be calculated Spotify's artist API endpoint, the product would be more similar to a gambling platform that would bet on new and emerging artists, depending on the amount of work required to do either. The topics I will explore will be the music industry (Spotify API), financial trading platforms (or one’s similar to kickstarter or Bloomberg), and will need to pull API and live data in order to generate estimated payouts based on initial investments. Data for the app is stored in a .txt file (called 'history.txt'), and is formatted in a system that store.py and write.py know how to store and analyze. (note: every function in this webapp were made by me, so they may be fairly unconventional or inefficient.) 
 
 STEPS FOR IMPLEMENTATION:
-1.  Run app.py (or go to https://musicalstocks.herokuapp.com/ if set up yet.)
+1.  Run app.py (or go to https://Musicstocks.herokuapp.com/ if set up yet.)
 2.  Go to 'http://127.0.0.1:5000/' on browser.
 3.  Enter the initial value you wish to invest and the artist name. Press submit and enjoy!
 
