@@ -1,12 +1,13 @@
-foo fighters for $5000: 80,84,84,84,84,84,84,84
+foo fighters for $5000: 80,84,84,84,84,84,84,84,84,84
 lil uzi vert for $100: 83,95,95
 loote for $10000: 39,71,71
 beatles for $200: 89
-lorde for $4000: 87
+lorde for $4000: 87,86
 
 hopsin for $0: 77
 timeflies for $4000: 74
 gorillaz for $0: 84
 fleetwood mac for $0: 82
 james brown for $0: 71
-black eyed peas for $0: 80,80,80,79,79,79,79,79,79,79,79,79
+black eyed peas for $0: 80,80,80,79,79,79,79,79,79,79,79,79,79
+nirvana for $0: 83
