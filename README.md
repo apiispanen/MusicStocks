@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MusicStocks
 NOTE: DO NOT EDIT 'HISTORY.TXT' OR ANY CODES, THEY ARE ESSENTIAL TO THE PROGRAM'S STABILITY.
 
@@ -74,7 +73,6 @@ FILES NOT IN THE FINISHED PRODUCT:
 -->Spotify.py = prototype for authorization
 -->success_scores.py = initial ways of calculating the investment values.
 -->toptrackresponse.txt = A guideline for how the Spotify API JSON responses look like. 
-=======
 # Python: Getting Started
 
 A barebones Django app, which can easily be deployed to Heroku.
@@ -119,4 +117,3 @@ or
 For more information about using Python on Heroku, see these Dev Center articles:
 
 - [Python on Heroku](https://devcenter.heroku.com/categories/python)
->>>>>>> 093914f66058c69726fa78583f7e032a442c1243
