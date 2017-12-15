@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-
 import write
 #'write' writes the results into a .txt file
 import artist
